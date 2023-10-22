@@ -1,0 +1,61 @@
+{
+  "name": "arifcode-theme",
+  "version": "0.0.1",
+  "publisher": "ArifCode",
+  "homepage": "https://github.com/arifbudimanar/arifcode-theme",
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "license": "MIT",
+  "displayName": "ArifCode Theme",
+  "description": "My personal theme for Visual Studio Code. Usually used for Laravel development.",
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "arifcode",
+    "dark",
+    "theme",
+    "modern",
+    "elegant",
+    "accessible",
+    "color-theme",
+    "oceanic",
+    "laravel"
+  ],
+  "galleryBanner": {
+    "color": "#242B2E",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "ArifCode Theme",
+        "uiTheme": "vs-dark",
+        "path": "./dist/arifcode-theme.json"
+      }
+    ]
+  },
+  "maintainers": [
+    "Arif Budiman Arrosyid"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arifbudimanar/arifcode-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/arifbudimanar/arifcode-theme/issues"
+  },
+  "icon": "images/icon.png",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "watch": "^1.0.2"
+  },
+  "scripts": {
+    "dev": "watch 'npm run build' ./src",
+    "build": "node src/index.js"
+  }
+}
