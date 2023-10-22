@@ -1,7 +1,7 @@
 {
   "name": "arifcode-theme",
   "version": "0.0.1",
-  "publisher": "ArifCode",
+  "publisher": "arifbudimanar",
   "homepage": "https://github.com/arifbudimanar/arifcode-theme",
   "engines": {
     "vscode": "^1.14.0"
