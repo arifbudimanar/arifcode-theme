@@ -1,6 +1,6 @@
 # ArifCode Theme
 
-Modern, elegant and accessible theme for VS Code.
+Oceanic dark theme for VS Code.
 
 ## Installation
 ### With Git Clone
@@ -40,26 +40,33 @@ code --install-extension generated-filename.vsix
 2. Search for `ArifCode Theme`
 3. Click `Install`
 
-![Image 4](images/image4.png)
+![vscode](images/vscode.png)
 
 ## Preview
+### Default
+![Default](images/default.png)
+### Minimalist
+![Minimalist](images/minimalist.png)
+### Zen Mode
+![Zen Mode](images/zenmode.png)
 
-![Image 1](images/image1.png)
-![Image 2](images/image2.png)
-![Image 3](images/image3.png)
+## File
+### HTML/CSS
+![HTML CSS](images/htmlcss.png)
+### PHP
+![PHP](images/php.png)
 
 ## Recommended Settings
-### settings.json
+### settings.json for minimalist setup
 ```json
 {
     "editor.fontFamily": "JetBrains Mono",
     "editor.fontLigatures": true,
     "editor.lineHeight": 2.15,
-    "workbench.productIconTheme": "fluent-icons",
     "workbench.activityBar.visible": false,
     "workbench.statusBar.visible": false,
-    "window.menuBarVisibility": "compact",
     "workbench.editor.showTabs": false,
+    "window.menuBarVisibility": "compact",
 
 }
 ```
