@@ -1,6 +1,6 @@
 # ArifCode Theme
 
-Oceanic dark theme for VS Code.
+Oceanic dark theme for VS Code and Windows Terminal.
 
 ## Installation
 ### With Git Clone
