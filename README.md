@@ -30,7 +30,7 @@ vsce package
 code --install-extension generated-filename.vsix
 ```
 ### With VSIX
-1. Download the latest [release](https://github.com/arifbudimanarrosyid/arifcode-theme/releases)
+1. Download the latest [release](https://github.com/arifbudimanar/arifcode-theme/releases)
 2. Install the extension
 ```bash
 code --install-extension generated-filename.vsix
