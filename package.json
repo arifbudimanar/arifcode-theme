@@ -1,6 +1,6 @@
 {
   "name": "arifcode-theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "arifbudimanar",
   "homepage": "https://github.com/arifbudimanar/arifcode-theme",
   "engines": {
@@ -8,7 +8,7 @@
   },
   "license": "MIT",
   "displayName": "ArifCode Theme",
-  "description": "Oceanic color theme for Visual Studio Code. Usually used for Laravel development.",
+  "description": "Oceanic dark theme for VS Code.",
   "categories": [
     "Themes"
   ],

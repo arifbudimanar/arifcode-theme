@@ -6,7 +6,7 @@ Oceanic dark theme for VS Code.
 ### With Git Clone
 1. Clone this repository
 ```bash
-git clone https://github.com/arifbudimanarrosyid/arifcode-theme
+git clone https://github.com/arifbudimanar/arifcode-theme
 ```
 
 2. Install VSCE
@@ -87,5 +87,35 @@ code --install-extension generated-filename.vsix
         "command": "workbench.action.toggleStatusbarVisibility"
     }
 ]
+
+```
+
+## Windows Terminal
+![Windows Terminal](images/windowsterminal.png)
+### settings.json
+```json
+{
+    "background": "#242B2E",
+    "black": "#242B2E",
+    "blue": "#6699CC",
+    "brightBlack": "#D4D4D4",
+    "brightBlue": "#6699CC",
+    "brightCyan": "#56B6C2",
+    "brightGreen": "#99C794",
+    "brightPurple": "#C594C5",
+    "brightRed": "#FAC863",
+    "brightWhite": "#D4D4D4",
+    "brightYellow": "#FAC863",
+    "cursorColor": "#D4D4D4",
+    "cyan": "#5FB3B3",
+    "foreground": "#D4D4D4",
+    "green": "#99C794",
+    "name": "ArifCode",
+    "purple": "#C594C5",
+    "red": "#E15A60",
+    "selectionBackground": "#D4D4D4",
+    "white": "#D4D4D4",
+    "yellow": "#FAC863"
+}
 
 ```
