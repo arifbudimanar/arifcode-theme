@@ -1,17 +1,37 @@
 {
-  "name": "arifcode-theme",
-  "version": "0.0.7",
-  "publisher": "arifbudimanar",
-  "homepage": "https://github.com/arifbudimanar/arifcode-theme",
-  "engines": {
-    "vscode": "^1.14.0"
+  "bugs": {
+    "url": "https://github.com/arifbudimanar/arifcode-theme/issues"
   },
-  "license": "MIT",
-  "displayName": "ArifCode Theme",
-  "description": "Oceanic dark theme for VS Code and Windows Terminal.",
   "categories": [
     "Themes"
   ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "ArifCode Theme",
+        "path": "./dist/arifcode-theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  },
+  "description": "Oceanic dark theme for VS Code and Windows Terminal.",
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2",
+    "watch": "^1.0.2"
+  },
+  "displayName": "ArifCode Theme",
+  "engines": {
+    "vscode": "^1.14.0"
+  },
+  "galleryBanner": {
+    "color": "#242B2E",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/arifbudimanar/arifcode-theme",
+  "icon": "images/icon.png",
   "keywords": [
     "arifcode",
     "dark",
@@ -23,39 +43,19 @@
     "oceanic",
     "laravel"
   ],
-  "galleryBanner": {
-    "color": "#242B2E",
-    "theme": "dark"
-  },
-  "contributes": {
-    "themes": [
-      {
-        "label": "ArifCode Theme",
-        "uiTheme": "vs-dark",
-        "path": "./dist/arifcode-theme.json"
-      }
-    ]
-  },
+  "license": "MIT",
   "maintainers": [
     "Arif Budiman Arrosyid"
   ],
+  "name": "arifcode-theme",
+  "publisher": "arifbudimanar",
   "repository": {
     "type": "git",
     "url": "https://github.com/arifbudimanar/arifcode-theme"
   },
-  "bugs": {
-    "url": "https://github.com/arifbudimanar/arifcode-theme/issues"
-  },
-  "icon": "images/icon.png",
-  "devDependencies": {
-    "eslint": "^6.1.0",
-    "eslint-config-prettier": "^6.0.0",
-    "eslint-plugin-prettier": "^3.1.0",
-    "prettier": "^1.18.2",
-    "watch": "^1.0.2"
-  },
   "scripts": {
-    "dev": "watch 'npm run build' ./src",
-    "build": "node src/index.js"
-  }
+    "build": "node src/index.js",
+    "dev": "watch 'npm run build' ./src"
+  },
+  "version": "0.0.8"
 }
