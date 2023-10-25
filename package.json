@@ -1,7 +1,4 @@
 {
-  "bugs": {
-    "url": "https://github.com/arifbudimanar/arifcode-theme/issues"
-  },
   "categories": [
     "Themes"
   ],
@@ -57,5 +54,5 @@
     "build": "node src/index.js",
     "dev": "watch 'npm run build' ./src"
   },
-  "version": "0.0.8"
+  "version": "0.0.9"
 }
