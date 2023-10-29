@@ -4,7 +4,7 @@ const theme = require("../theme");
 // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_extensions
 
 module.exports = {
-  "extensionButton.prominentForeground": theme.foreground,
-  "extensionButton.prominentBackground": "#A94348",
-  "extensionButton.prominentHoverBackground": "#A94348"
+  "extensionButton.prominentBackground": theme.green,
+  "extensionButton.prominentForeground": theme.backgroundDark,
+  "extensionButton.prominentHoverBackground": theme.green
 };
