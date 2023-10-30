@@ -57,7 +57,7 @@ code --install-extension generated-filename.vsix
 ![PHP](images/php.png)
 
 ## Recommended Settings
-### settings.json for minimalist setup
+### settings.json
 ```json
 {
 	"breadcrumbs.enabled": false,

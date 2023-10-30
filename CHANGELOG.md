@@ -8,3 +8,6 @@
 
 ## 0.0.10
 - Change extension button color to green and button text to dark
+
+## 0.0.11
+- Add more json settings recomendation
