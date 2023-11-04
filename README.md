@@ -1,3 +1,4 @@
+![banner](images/banner.png)
 # ArifCode Theme
 
 Oceanic dark theme for VS Code and Windows Terminal.
@@ -35,12 +36,10 @@ code --install-extension generated-filename.vsix
 ```bash
 code --install-extension generated-filename.vsix
 ```
-### With VS Code
+### With [VSCode](https://marketplace.visualstudio.com/items?itemName=arifbudimanar.arifcode-theme)
 1. Open the Extensions sidebar in VS Code
 2. Search for `ArifCode Theme`
 3. Click `Install`
-
-![vscode](images/vscode.png)
 
 ## Preview
 ### Default

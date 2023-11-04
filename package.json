@@ -54,5 +54,5 @@
     "build": "node src/index.js",
     "dev": "watch 'npm run build' ./src"
   },
-  "version": "0.0.12"
+  "version": "0.0.13"
 }
