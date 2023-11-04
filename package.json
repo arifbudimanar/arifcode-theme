@@ -28,7 +28,7 @@
     "theme": "dark"
   },
   "homepage": "https://github.com/arifbudimanar/arifcode-theme",
-  "icon": "images/icon.png",
+  "icon": "images/logo-dark.png",
   "keywords": [
     "arifcode",
     "dark",
@@ -54,5 +54,5 @@
     "build": "node src/index.js",
     "dev": "watch 'npm run build' ./src"
   },
-  "version": "0.0.11"
+  "version": "0.0.12"
 }
