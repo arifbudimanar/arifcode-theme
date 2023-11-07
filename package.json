@@ -31,14 +31,15 @@
   "icon": "images/logo-dark.png",
   "keywords": [
     "arifcode",
-    "dark",
-    "theme",
+    "dark-theme",
     "modern",
     "elegant",
     "accessible",
     "color-theme",
     "oceanic",
-    "laravel"
+    "laravel",
+    "minimalist",
+    "minimal"
   ],
   "license": "MIT",
   "maintainers": [
@@ -54,5 +55,5 @@
     "build": "node src/index.js",
     "dev": "watch 'npm run build' ./src"
   },
-  "version": "0.0.13"
+  "version": "0.0.14"
 }
