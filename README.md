@@ -1,4 +1,10 @@
 ![banner](images/banner.png)
+
+![Visual Studio Marketplace Installs](https://img.shields.io/visual-studio-marketplace/i/arifbudimanar.arifcode-theme?style=for-the-badge)
+![Visual Studio Marketplace Downloads](https://img.shields.io/visual-studio-marketplace/d/arifbudimanar.arifcode-theme?style=for-the-badge)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/arifbudimanar.arifcode-theme?style=for-the-badge)
+![Visual Studio Marketplace Rating](https://img.shields.io/visual-studio-marketplace/r/arifbudimanar.arifcode-theme?style=for-the-badge)
+
 # ArifCode Theme
 Oceanic dark theme for VS Code and Windows Terminal.
 
