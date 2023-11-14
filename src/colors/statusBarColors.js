@@ -12,7 +12,8 @@ module.exports = {
   "statusBar.noFolderBackground": theme.background,
   "statusBarItem.activeBackground": theme.background,
   "statusBarItem.hoverBackground": theme.background,
+  "statusBarItem.hoverForeground": theme.green,
   "statusBarItem.prominentBackground": theme.background,
   "statusBarItem.prominentHoverBackground": theme.background,
-  "statusBar.border": "#30373A"
+  "statusBar.border": theme.backgroundLight,
 };

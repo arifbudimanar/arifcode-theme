@@ -3,7 +3,7 @@ const colors = require("./colors");
 const tokenColors = require("./tokenColors");
 
 const theme = {
-  name: "Gatito Theme",
+  name: "ArifCode Theme",
   colors: {
     ...colors.baseColors,
     ...colors.textColors,
