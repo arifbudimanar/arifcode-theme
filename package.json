@@ -5,7 +5,7 @@
   "contributes": {
     "themes": [
       {
-        "label": "ArifCode Theme",
+        "label": "ArifCode Theme - Original",
         "path": "./dist/arifcode-theme.json",
         "uiTheme": "vs-dark"
       }
@@ -55,5 +55,5 @@
     "build": "node src/index.js",
     "dev": "watch 'npm run build' ./src"
   },
-  "version": "0.0.22"
+  "version": "0.0.23"
 }
